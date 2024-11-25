@@ -1,0 +1,328 @@
+{
+	"results": [
+		{
+			"objectId": "CNt7VFefF4",
+			"username": "alysson",
+			"email": "4ly.alcantara@gmail.com",
+			"emailVerified": true,
+			"createdAt": "2023-08-27T04:16:43.163Z",
+			"updatedAt": "2023-09-16T20:03:25.132Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"CNt7VFefF4": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "aqSKCSKmDe",
+			"username": "guilherme",
+			"email": "santosfk@gmail.com",
+			"createdAt": "2023-08-27T04:17:20.642Z",
+			"updatedAt": "2023-09-16T20:03:09.401Z",
+			"emailVerified": true,
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"aqSKCSKmDe": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "ZdLy6EYvjg",
+			"username": "gustavo",
+			"createdAt": "2023-09-16T20:03:26.367Z",
+			"updatedAt": "2023-09-16T21:27:38.308Z",
+			"emailVerified": true,
+			"email": "",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"ZdLy6EYvjg": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "ofJexxj4K5",
+			"username": "urubu",
+			"email": "urubu@gmail.com",
+			"createdAt": "2023-09-16T21:51:22.053Z",
+			"updatedAt": "2023-09-16T21:51:57.112Z",
+			"emailVerified": true,
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"ofJexxj4K5": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "EmDl8hM1kw",
+			"username": "Alysson 123",
+			"email": "alysson@gmail.com",
+			"createdAt": "2023-09-17T03:59:39.424Z",
+			"updatedAt": "2023-09-17T03:59:39.424Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"EmDl8hM1kw": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "w2T6vC4Vqs",
+			"username": "ads",
+			"email": "adasdad@gmaisls.com",
+			"createdAt": "2023-09-17T04:06:31.616Z",
+			"updatedAt": "2023-09-17T04:06:31.616Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"w2T6vC4Vqs": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "qNcn4kIPuO",
+			"username": "asdasd",
+			"email": "adasdad@asd.com",
+			"createdAt": "2023-09-17T04:12:06.341Z",
+			"updatedAt": "2023-09-17T04:12:06.341Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"qNcn4kIPuO": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "jmw6B0GFYk",
+			"username": "asdasdasdasdads",
+			"email": "adasdad@asd.com.br",
+			"createdAt": "2023-09-17T04:13:10.379Z",
+			"updatedAt": "2023-09-17T04:13:10.379Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"jmw6B0GFYk": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "So7TRqiCRe",
+			"username": "asd",
+			"email": "teste@gmail.com",
+			"createdAt": "2023-09-17T04:19:28.785Z",
+			"updatedAt": "2023-09-17T04:19:28.785Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"So7TRqiCRe": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "4piGHHqOxq",
+			"username": "a",
+			"email": "asd@gmail.com",
+			"createdAt": "2023-09-17T04:27:21.535Z",
+			"updatedAt": "2023-09-17T04:27:21.535Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"4piGHHqOxq": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "118ul1PylJ",
+			"username": "jhasd",
+			"email": "jahsd@gmail.com",
+			"createdAt": "2023-09-17T04:37:21.176Z",
+			"updatedAt": "2023-09-17T04:37:21.176Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"118ul1PylJ": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "68xJk7J2sk",
+			"username": "jkahsd",
+			"email": "kjahsd@gmail.com",
+			"createdAt": "2023-09-17T04:38:31.837Z",
+			"updatedAt": "2023-09-17T04:38:31.837Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"68xJk7J2sk": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "FlEZHp3Ccf",
+			"username": "bambam",
+			"email": "bambam@gmail.com",
+			"createdAt": "2023-09-18T01:28:11.734Z",
+			"updatedAt": "2023-09-18T01:28:11.734Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"FlEZHp3Ccf": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "v7WU8ZZXq6",
+			"username": "Luquinhas123",
+			"email": "luquinha@gmail.com",
+			"createdAt": "2023-09-18T01:34:14.836Z",
+			"updatedAt": "2023-09-18T01:34:14.836Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"v7WU8ZZXq6": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "WJSmiSU5FD",
+			"username": "Gustavo gostoso",
+			"email": "playerforever81@gmail.com",
+			"createdAt": "2023-09-18T13:47:25.744Z",
+			"updatedAt": "2023-09-18T13:47:25.744Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"WJSmiSU5FD": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "C3Eu9EaVCt",
+			"username": "dasfsdfd",
+			"email": "sdofhoendo@gmail.com",
+			"createdAt": "2023-09-18T16:08:31.742Z",
+			"updatedAt": "2023-09-18T16:08:31.742Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"C3Eu9EaVCt": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "jV4rYCK4Ii",
+			"username": "Gustavo Santos Melo",
+			"email": "57338848@gmail.com",
+			"createdAt": "2023-09-20T02:22:34.046Z",
+			"updatedAt": "2023-09-20T02:22:34.046Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"jV4rYCK4Ii": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "5yekQjIvKW",
+			"username": "Cariani",
+			"email": "cariani@gmail.com",
+			"createdAt": "2023-09-20T02:24:58.884Z",
+			"updatedAt": "2023-09-20T02:24:58.884Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"5yekQjIvKW": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "cYpano41SV",
+			"username": "Gustavo dev",
+			"email": "gustavo.s.melo18@gmail.com",
+			"createdAt": "2023-09-22T01:25:14.468Z",
+			"updatedAt": "2023-09-22T01:25:14.468Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"cYpano41SV": {
+					"read": true,
+					"write": true
+				}
+			}
+		},
+		{
+			"objectId": "aSm3k3WwyQ",
+			"username": "Sergio Sacani",
+			"email": "Serjaocomedordeloirinhas@gmail.com",
+			"createdAt": "2023-09-22T01:29:13.423Z",
+			"updatedAt": "2023-09-22T01:29:13.423Z",
+			"ACL": {
+				"*": {
+					"read": true
+				},
+				"aSm3k3WwyQ": {
+					"read": true,
+					"write": true
+				}
+			}
+		}
+	]
+}

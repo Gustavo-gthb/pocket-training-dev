@@ -1,0 +1,36 @@
+#!/bin/bash
+
+CHOISE_PROJECT=$1
+
+if [ "$CHOISE_PROJECT" == "-h" ]; then
+    echo "Valid options:"
+    echo "back - start backend"
+    echo "front - start frontend"
+    exit 1
+fi
+
+if [ -z "$CHOISE_PROJECT" ]; then
+    # run all
+    cd backend
+    ./develop.sh &
+    cd ../frontend
+    pnpm run dev &
+    exit 1
+fi
+
+if [ "$CHOISE_PROJECT" != "back" ] && [ "$CHOISE_PROJECT" != "front" ]; then
+    echo "Please, enter project name"
+    exit 1
+fi
+
+if [ "$CHOISE_PROJECT" == "back" ]; then
+    cd backend
+    ./develop.sh
+    exit 1
+fi
+
+if [ "$CHOISE_PROJECT" == "front" ]; then
+    cd frontend
+    pnpm run dev
+    exit 1
+fi

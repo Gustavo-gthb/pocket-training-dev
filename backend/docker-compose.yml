@@ -1,0 +1,37 @@
+version: '3'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - '27017-27019:27017-27019'
+    volumes:
+      - ./mongodb_data:/data/db
+
+volumes:
+  mongodb_data_container:
+    driver: local
+
+  # front:
+  #   container_name: front
+  #   hostname: front
+  #   image: node:lts
+  #   volumes:
+  #     - ./frontend:/frontend
+  #   command: bash -c "cd /frontend && npm install -g pnpm && pnpm install && pnpm run dev"
+  #   ports:
+  #     - "5173:5173"
+  #   expose:
+  #     - "5173"
+
+  # back:
+  #   container_name: back
+  #   hostname: back
+  #   image: node:14
+  #   command: bash -c "cd /backend && node index.js"
+  #   volumes:
+  #     - ./backend:/backend
+  #   ports:
+  #     - "1337:1337"
+  #   depends_on:
+  #     - mongodb

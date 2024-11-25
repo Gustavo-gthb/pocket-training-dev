@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Treino de bolso</title>
+
+  <link rel="icon" type="image/svg+xml" href="/icons/transparent_icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+  <meta charset="UTF-8" />
+  <meta name="google" content="notranslate" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Treino de bolso" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="keywords" content="Treino de bolso" />
+  <meta name="description" content="Treino de bolso" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#050416" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#FDA743" />
+  <meta name="viewport" content="initial-scale=1, viewport-fit=cover, width=device-width" />
+
+  <script async src="https://pay.google.com/gp/p/js/pay.js" onload="onGooglePayLoaded()"></script>
+  <script>
+    function onGooglePayLoaded() {
+      window.googlePayClient = new google.payments.api.PaymentsClient({
+        environment: 'TEST'
+      });
+    }
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js', { scope: '/' });
+      });
+    }
+  </script>
+</head>
+
+<style>
+  noscript {
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    position: fixed;
+    color: aliceblue;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #050416;
+  }
+
+  noscript>div {
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+
+  noscript>div>button {
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #fda743;
+  }
+
+  noscript>div>button>a {
+    color: #050416;
+    font-weight: bold;
+    text-decoration: none;
+  }
+</style>
+
+<body>
+  <div id="train_menu-portal"></div>
+  <div id="root"></div>
+  <div class="ballon ballon-1"></div>
+  <div class="ballon ballon-2"></div>
+
+  <noscript>
+    <div>
+      <h1>Para o nosso sistema funcionar você precisa habilitar o javascript do seu navegador</h1>
+      <p>Veja abaixo como fazer isso</p>
+
+      <button>
+        <a href="https://www.enable-javascript.com/pt/" target="_blank">Como habilitar o javascript?</a>
+      </button>
+    </div>
+  </noscript>
+
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
